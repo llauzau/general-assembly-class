@@ -1,0 +1,32 @@
+body {
+  background-image: url("../Images/background.jpg");
+  background-repeat: no-repeat;
+}
+
+div {
+  background-image: url("../Images/stripes.png");
+  background-repeat: repeat-x;
+}
+
+.logo{
+  margin-left: 60px;
+  padding-top: 250px;
+  padding-bottom: 15px;
+}
+
+p{
+  font-family: Arial, san-serif;
+  font-size: 18px;
+  margin-left: 60px;
+  padding-top: 10px;
+  color: #ffffff;
+}
+
+hr{
+  margin-left: 60px;
+}
+
+.appstore{
+  margin-left: 60px;
+  padding-top: 10px;
+}

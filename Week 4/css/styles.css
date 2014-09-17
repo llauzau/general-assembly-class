@@ -1,36 +1,36 @@
 body {
-	background-image: url("../images/bg.jpg");
-	background-size: 100%;
+	background-image: url("../images/bckg.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
 	}
-
-.hops{
-	width: 50%;
-}
 
 h1{
 	color: #ffffff;
 	font-family: 'Francois One', sans-serif;
-	font-size: 65px;
-	float: right;
-	margin-right: 100px;
-	margin-top: 150px;
+	font-size: 72px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
 }
 
 .the{
 	font-family: 'Sue Ellen Francisco', cursive;
 }
 
-.box{
-	background-color: rgba(255,255,0,0.5);
-	width: 500px;
-	height: 100%;
-}
-
 p{
 	color: #ffffff;
 	font-family: 'Open Sans', sans-serif;
-	float: right;
-	margin-right: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -60px;
 	width: 400px;
+}
+
+.box{
+	position: absolute;
+	background-color: rgba(0, 0, 0, .3);
+	height: 300px;
+	left: 0;
+	right: 0;
+	top: 150px;
 }

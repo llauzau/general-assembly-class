@@ -11,11 +11,16 @@ h1{
 	letter-spacing: .5em;
 }
 
+.all-projects{
+  width: 99%;
+  margin: 0 auto;
+}
+
 .project,
 .blog {
 	background-color: gray;
 	height: 200px;
-	width: 300px;
+	width: 24%;
 	display: inline-block;
 	margin: 1px;
 }
@@ -23,4 +28,11 @@ h1{
 .blog {
 	text-align: center;
 	background-color: #458b74;
+}
+
+@media (max-width: 800px) {
+	.project,
+	.blog {
+		width: 32%;
+	}
 }

@@ -1,0 +1,26 @@
+body {
+	font-family: open sans, arial, sans-serif;
+	font-size: 16px;
+}
+
+h1{
+	font-family: open sans, arial, sans-serif;
+	text-align: center;
+	font-size: 3em;
+	font-weight: 300;
+	letter-spacing: .5em;
+}
+
+.project,
+.blog {
+	background-color: gray;
+	height: 200px;
+	width: 300px;
+	display: inline-block;
+	margin: 1px;
+}
+
+.blog {
+	text-align: center;
+	background-color: #458b74;
+}

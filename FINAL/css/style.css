@@ -1,6 +1,7 @@
 body {
 	font-family: open sans, arial, sans-serif;
 	font-size: 16px;
+
 }
 
 h1{
@@ -19,10 +20,10 @@ h1{
 .project,
 .blog {
 	background-color: gray;
-	height: 200px;
-	width: 24%;
+	height: 300px;
+	width: 33%;
 	display: inline-block;
-	margin: 1px;
+	margin: 2px 0;
 }
 
 .blog {
@@ -30,9 +31,16 @@ h1{
 	background-color: #458b74;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
 	.project,
 	.blog {
-		width: 32%;
+		width: 49%;
+	}
+}
+
+@media (max-width: 400px) {
+	.project,
+	.blog {
+		width: 99%;
 	}
 }

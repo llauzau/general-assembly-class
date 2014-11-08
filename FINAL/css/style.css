@@ -12,12 +12,17 @@ h1{
 	font-family: 'Dancing Script', cursive;	
 	font-size: 4em;
 	margin: 10px 0 10px 40px;
+	text-align: center;
 }
 
-hr {
-	width: 99%;
-	color: #ffffff;
-	margin: 0 0 0 5px;
+h2 {
+	margin: 3em 0 0 0;
+}
+
+p {
+	width: 75%;
+	margin: 2em 0 0 0;
+	line-height: 1.75em;
 }
 
 .all-projects{
@@ -27,7 +32,6 @@ hr {
 
 .project,
 .blog {
-	background-color: gray;
 	height: 300px;
 	width: 33%;
 	display: inline-block;
@@ -70,6 +74,29 @@ hr {
 	background-color: #458b74;
 }
 
+.wrapper {
+	width: 99%;
+  overflow: hidden;
+}
+
+.description {
+  width: 33%;
+  float:left; 
+  margin: 0 0 0 10em;
+}
+
+.thumbnail-wrapper {
+  float: left;
+  margin: 3em 0 0 0;
+}
+
+.thumbnail {
+	background-color: gray;
+	margin: 0 0 20px 0;
+	width: 600px;
+	height: 300px;
+}
+
 .footer {
 	height: 100px;
 	background-color: #4a4943;
@@ -81,6 +108,10 @@ hr {
 	.project,
 	.blog {
 		width: 49%;
+	}
+
+	h1 {
+		text-align: center;
 	}
 }
 

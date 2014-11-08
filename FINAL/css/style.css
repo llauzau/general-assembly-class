@@ -1,20 +1,28 @@
+*{
+  margin: 0;
+}
+
 body {
 	font-family: open sans, arial, sans-serif;
 	font-size: 16px;
-
+	border: none;
 }
 
 h1{
-	font-family: open sans, arial, sans-serif;
-	text-align: center;
-	font-size: 3em;
-	font-weight: 300;
-	letter-spacing: .5em;
+	font-family: 'Dancing Script', cursive;	
+	font-size: 4em;
+	margin: 10px 0 10px 40px;
+}
+
+hr {
+	width: 99%;
+	color: #ffffff;
+	margin: 0 0 0 5px;
 }
 
 .all-projects{
   width: 99%;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .project,
@@ -23,12 +31,50 @@ h1{
 	height: 300px;
 	width: 33%;
 	display: inline-block;
-	margin: 2px 0;
+}
+
+.project {
+	background-position: center;
+}
+
+.project1 {
+	background-image: url("../images/Project1.jpg");
+}
+
+.project2 {
+	background-image: url("../images/Project2.jpg");
+}
+
+.project3 {
+	background-image: url("../images/Project3.jpg");
+}
+
+.project4 {
+	background-image: url("../images/Project4.jpg");
+}
+
+.project5 {
+	background-image: url("../images/Project5.jpg");
+}
+
+.project6 {
+	background-image: url("../images/Project6.jpg");
+}
+
+.project7 {
+	background-image: url("../images/Project7.jpg");
 }
 
 .blog {
 	text-align: center;
 	background-color: #458b74;
+}
+
+.footer {
+	height: 100px;
+	background-color: #4a4943;
+	width: 100%;
+  margin: 4px 0 0 0;
 }
 
 @media (max-width: 850px) {
